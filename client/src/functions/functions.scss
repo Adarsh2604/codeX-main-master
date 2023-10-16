@@ -1,0 +1,33 @@
+html{
+    font-size: 62.5%;
+}
+
+.func{
+    background-color: #f3f7fd;
+    // margin-top: 1.2rem;
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        li{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            list-style: none;
+            font-size: 1.5rem;
+            padding: 1.0rem;
+            cursor: pointer;
+
+            .icons{
+                margin: .5rem;
+                font-size: 1.8rem;
+            }
+        }
+
+        li:hover{
+            color: green;
+        }
+    }
+}

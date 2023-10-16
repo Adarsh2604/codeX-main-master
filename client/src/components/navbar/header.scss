@@ -1,0 +1,20 @@
+html{
+  font-size: 62.5%;
+}
+
+.header {
+  background-color: #f1ebeb;
+  position: sticky; //*******
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.0rem;
+  font-size: 3.3rem;
+  font-weight: 600;
+  color: green;
+  cursor: pointer;
+  // font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,32 @@
+html{
+  font-size: 62.5%;
+}
+
+.item {
+  margin-top: .7rem;
+}
+
+#lang {
+  // position: sticky;
+  padding: 1.1rem .9rem;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 .1rem .2rem 0 rgb(34 36 38 / 15%);
+  outline: none;
+  border-color: #96c8da;
+}
+
+select {
+  // font-size: 1em;
+  padding: .5rem;
+}
+
+select > option {
+  // box-shadow: 0 .2rem .3rem 0 rgb(34 36 38 / 15%);
+  background-color: rgb(246, 241, 241);
+}
+
+
+.ln {
+  background-color: #dce6e9;
+}
